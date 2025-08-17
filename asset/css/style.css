@@ -190,6 +190,11 @@ body {
     -webkit-backdrop-filter: blur(20px);
     background-color: #18203054;
 }
+.bg-light-glass-end {
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: #182030aa;
+}
 .bg-tab-card{
     background-color:#fff;
     border-radius: 4px;
@@ -311,7 +316,7 @@ body {
     text-decoration: none;
 }
 .teks:hover{
-    color: #fff;
+    color: #3651ff;
 }
 .cv-text{
     font-size: 1rem;
@@ -439,8 +444,8 @@ body {
     object-fit: scale-down;
     position: absolute;
     z-index: 1;
-    left: 9%;
-    top: 22%;
+    left: 7%;
+    top: 10%;
     filter: drop-shadow(5px 5px 15px #1d33c0b4);
     animation: slowRotate 60s linear infinite;
 }
