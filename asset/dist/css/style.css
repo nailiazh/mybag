@@ -150,7 +150,7 @@ body {
 }
 /* ========== background==========  */
 .card-img-overlay{
-    background: linear-gradient(180deg, #3b424d0f 0%, #1e2532bb 73%, #000000a9 10%);
+    background: linear-gradient(180deg, #3b424d0f 0%, #1e253264 73%, #0000005d 10%);
     color: #fff;
 }
 .bg-glass{
@@ -161,6 +161,12 @@ body {
     background-color: #f7f9f8a1;
     backdrop-filter: blur(9.5px);
     -webkit-backdrop-filter: blur(9.5px);
+}
+.bg-glass-transparent{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background-color: #18203054;
+    box-shadow: #040c1938 0px 4px 6px -1px, #040c1933 0px 2px 4px -1px;
 }
 .bg-outline{
     /* backdrop-filter: blur(21px);
