@@ -7,9 +7,6 @@ body {
     .profile{
         height: 100vh;
     }
-    .portfolio{
-        height: 100vh;
-    }
     .design{
         height: 100vh;
     }
@@ -26,9 +23,6 @@ body {
         position:sticky;
         bottom: 20px;
     }
-    .portfolio{
-        height: 100vh;
-    }
     .design{
         height: 100vh;
     }
@@ -42,9 +36,6 @@ body {
         height: 100vh;
     }
     .profile{
-        height: 100vh;
-    }
-    .portfolio{
         height: 100vh;
     }
     .design{
@@ -62,9 +53,6 @@ body {
     .profile{
         height: 100vh;
     }
-    .portfolio{
-        height: 100vh;
-    }
     .design{
         height: 100vh;
     }
@@ -78,9 +66,6 @@ body {
         height: 100vh;
     }
     .profile{
-        height: 100vh;
-    }
-    .portfolio{
         height: 100vh;
     }
     .design{
@@ -110,7 +95,7 @@ body {
 /* ========== section ==========  */
 
 .nav-bar{
-    border-radius: 16px;
+    border-radius: 14px;
     position: sticky;
     top: 20px;
     padding: 1em 0;
@@ -161,14 +146,11 @@ body {
     overflow-x: hidden;
 }
 .portfolio{
-    height: 100vh; 
-    width: 100vw; 
     padding-top: 20rem;
 }
 /* ========== background==========  */
 .card-img-overlay{
-    background: linear-gradient(180deg, rgba(30,37,50,0.09567577030812324) 0%, rgba(30,37,50,1) 43%, rgb(0, 0, 0) 100%);
-    opacity: 0.5;
+    background: linear-gradient(180deg, #3b424d0f 0%, #1e2532bb 73%, #000000a9 10%);
     color: #fff;
 }
 .bg-glass{
@@ -311,6 +293,12 @@ body {
 }
 
 /* =========== Text =========== */
+.align-text-bottom {
+  vertical-align: text-bottom !important;
+}
+.h-100 {
+  height: 100% !important;
+}
 .teks{
     color: #B1BAFF;
     text-decoration: none;

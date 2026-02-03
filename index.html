@@ -7,8 +7,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="asset/css/style.css">
-		<link rel="shortcut icon" href="asset/images/favon.png"/>
+        <link rel="stylesheet" href="asset/dist/css/style.css">
+		<link rel="shortcut icon" href="asset/dist/images/favicon.ico"/>
     </head>
     <body class="p-0">
         <!-- Home -->
@@ -53,7 +53,7 @@
             </div> 
           </div> 
         </section>
-        <div class="col-lg-9 nav-bar bg-light-glass mx-auto mb-5" style="margin-top: -150px;">
+        <div class="col-lg-9 nav-bar bg-light-glass mx-auto" style="margin-top: -50px; margin-bottom: -175px;">
             <div class="row m-0">
                 <div class="col-lg-2">
                     <a class="fw-bold teks text-center" href="#home"><h4>Hi.</h4></a>
@@ -75,122 +75,127 @@
                 </div>
             </div>
         </div>
-        <section id="portfolio" class="portfolio row pt-5">
-            <div class="container row m-2 mt-5">
-                <div class="col-2 m-auto ps-5 bg-nav-tab-pane">
-                    <ul style="display: flex; flex-direction: column;" class="text-center nav nav-tabs mx-auto" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#comp" type="button" role="tab" aria-controls="home" aria-selected="true">Components</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#pages" type="button" role="tab" aria-controls="profile" aria-selected="false">Pages</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#app" type="button" role="tab" aria-controls="contact" aria-selected="false">UI/UX</button>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-10 tab-content mt-3" id="myTabContent">
-                    <div style="overflow-y: scroll; height: 70vh; border-radius: 16px;" class="tab-pane fade show active p-3" id="comp" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-                              <div class="col ">
-                                <div class="card bg-dark text-white mx-2">
-                                    <img src="https://i.pinimg.com/564x/cf/0c/71/cf0c7130af8440ed7ad0aa55d00e7dd0.jpg" class="card-img card-images" alt="...">
-                                    <div style="display: grid; height: 100%; align-items: flex-end;" class="card-img-overlay"> 
-                                        <p class="card-text my-0" style="color: #fff; bottom: 0;">Last updated 3 mins ago</p>
-                                        <div style="display: flex; flex-direction: row;" class="my-0">
-                                            <button class="btn btn-outline-light btn-block">Details</button>
-                                            <button class="btn btn-outline-light"><i class="fa-solid fa-download"></i></button>
-                                        </div>
-                                    </div>
+        <section id="portfolio" class="portfolio row mb-5 justify-content-center">
+            <div class="col-lg-10 pb-5 mb-auto overflow-auto">
+                <div class="row row-cols-1 row-cols-md-3 my-5">
+                    <div class="col ">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/bookavy.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Book Shop | Bookavy</h6>
+                                <p class="card-text font-weight-light">A simple book shop website.</p>
+                                <div class="row">
+                                    <a href="portfolio/bookavy/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/bookavy/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>
                                 </div>
-                              </div>
-                              <div class="col ">
-                                <div class="card bg-dark text-white mx-2">
-                                    <img src="https://i.pinimg.com/564x/4c/8e/70/4c8e70d1d75a51a4ae189ee7860c22d2.jpg" class="card-img card-images" alt="...">
-                                    <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="col ">
-                                <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/93/32/20/9332208313edd38f7b0dc957cb050e77.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
-                                </div>
-                                </div>
-                              </div>
-                              <div class="col ">
-                                <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/cf/0c/71/cf0c7130af8440ed7ad0aa55d00e7dd0.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
-                                </div>
-                                </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
-                    <div style="overflow-y: scroll; height: 70vh; border-radius: 16px;" class="tab-pane fade p-3" id="pages" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="card-group">
-                             <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/04/77/4b/04774b0cfdb581be3653ac9ef23972b6.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
+                     <div class="col">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/pravelist.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Florist | Pravelist</h6>
+                                <p class="card-text font-weight-light">Florist landing page website.</p>
+                                <div class="row">
+                                    <a href="portfolio/pravelist/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/pravelist/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>
                                 </div>
-                              </div>
-                              <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/ee/3e/f2/ee3ef231a064d6e45ee56d5883f1db15.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
-                                </div>
-                              </div>
-                              <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/39/a6/e0/39a6e0e85fb1c15569a470c1628c54bf.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
-                                </div>
-                              </div>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div style="overflow-y: scroll; height: 70vh; border-radius: 16px;" class="tab-pane fade p-3" id="app" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="card-group">
-                              <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/34/8d/bf/348dbf3bf629d6732b074a6fc34fe353.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
+                    <div class="col ">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/rhonebay.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Grocery | Rhonebay</h6>
+                                <p class="card-text font-weight-light">Grocery store website.</p>
+                                <div class="row">
+                                    <a href="portfolio/rhonebay/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/rhonebay/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>  
                                 </div>
-                              </div>
-                              <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/4b/3e/ea/4b3eea22e3967711f384ba0b776baa73.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/bookavy.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Book Shop | Bookavy</h6>
+                                <p class="card-text font-weight-light">A simple book shop website.</p>
+                                <div class="row">
+                                    <a href="portfolio/bookavy/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/bookavy/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>
                                 </div>
-                              </div>
-                              <div class="card bg-dark text-white mx-2">
-                                <img src="https://i.pinimg.com/564x/b6/ef/e3/b6efe371ab27e5bd27b44cd0b84b9b64.jpg" class="card-img card-images" alt="...">
-                                <div class="card-img-overlay">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                  <p class="card-text">Last updated 3 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/pravelist.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Florist | Pravelist</h6>
+                                <p class="card-text font-weight-light">Florist landing page website.</p>
+                                <div class="row">
+                                    <a href="portfolio/pravelist/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/pravelist/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>
                                 </div>
-                              </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/rhonebay.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Grocery | Rhonebay</h6>
+                                <p class="card-text font-weight-light">Grocery store website.</p>
+                                <div class="row">
+                                    <a href="portfolio/rhonebay/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/rhonebay/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/bookavy.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Book Shop | Bookavy</h6>
+                                <p class="card-text font-weight-light">A simple book shop website.</p>
+                                <div class="row">
+                                    <a href="portfolio/bookavy/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/bookavy/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/pravelist.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Florist | Pravelist</h6>
+                                <p class="card-text font-weight-light">Florist landing page website.</p>
+                                <div class="row">
+                                    <a href="portfolio/pravelist/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/pravelist/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card mb-3">
+                            <img src="portfolio/thumbnail/rhonebay.png" class="card-images" alt="...">
+                            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                <h6 class="card-title">Grocery | Rhonebay</h6>
+                                <p class="card-text font-weight-light">Grocery store website.</p>
+                                <div class="row">
+                                    <a href="portfolio/rhonebay/desc.html" class="col nav-link fs-6">see how i build <i class="fa-solid fa-angle-right"></i></a>
+                                    <a href="portfolio/rhonebay/index.html" class="col nav-link fs-6">see demo <i class="fa-solid fa-angle-right"></i></a>  
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -199,16 +204,13 @@
         <section>
         
         </section>
-        <section style="border-radius: 3px;" id="cv" class="bg-light-glass-end col-8 mx-auto py-5 px-5">
+        <section id="cv" class="bg-light-glass-end col-8 mx-auto p-5 rounded-3">
             <div class="row justify-content-center">
               <div class="col-4">
-                <img class="profile-picture" src="asset/images/profile-pc.png" alt="">
-                <img src="asset/images/hexagon.png" class="profile-picture-bg" alt="">
+                <img class="profile-picture" src="asset/dist/images/profile-pc.png" alt="">
+                <img src="asset/dist/images/hexagon.png" class="profile-picture-bg" alt="">
               </div>
-              <div class="col-8">
-                <h6 class="cv-text">As an enthusiastic beginner in front-end development, I am passionate about exploring the dynamic world of programming. I possess a strong foundation in HTML, CSS, and JavaScript, and I am eager to apply my skills in real-world projects. My keen interest in learning new technologies, combined with a dedication to creating seamless and engaging user experiences, drives me to continuously improve and grow in the field. I am seeking an entry-level front-end development position where I can contribute my skills and enthusiasm to a collaborative team environment.</h6>
-                <h6 class="cv-text">As an enthusiastic beginner in front-end development, I am passionate about exploring the dynamic world of programming. I possess a strong foundation in HTML, CSS, and JavaScript, and I am eager to apply my skills in real-world projects. My keen interest in learning new technologies, combined with a dedication to creating seamless and engaging user experiences, drives me to continuously improve and grow in the field. I am seeking an entry-level front-end development position where I can contribute my skills and enthusiasm to a collaborative team environment.</h6>
-                <h6 class="cv-text">As an enthusiastic beginner in front-end development, I am passionate about exploring the dynamic world of programming. I possess a strong foundation in HTML, CSS, and JavaScript, and I am eager to apply my skills in real-world projects. My keen interest in learning new technologies, combined with a dedication to creating seamless and engaging user experiences, drives me to continuously improve and grow in the field. I am seeking an entry-level front-end development position where I can contribute my skills and enthusiasm to a collaborative team environment.</h6>
+              <div class="col-8 vh-100">
                 <h6 class="cv-text">As an enthusiastic beginner in front-end development, I am passionate about exploring the dynamic world of programming. I possess a strong foundation in HTML, CSS, and JavaScript, and I am eager to apply my skills in real-world projects. My keen interest in learning new technologies, combined with a dedication to creating seamless and engaging user experiences, drives me to continuously improve and grow in the field. I am seeking an entry-level front-end development position where I can contribute my skills and enthusiasm to a collaborative team environment.</h6>
               </div>
             </div>
@@ -218,12 +220,12 @@
             </div>
         </section> 
     </body>    
+        <!-- Optional: jQuery (if you need it for other purposes) -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <!-- Bootstrap 5.1.3 JS, Popper.js, and optionally jQuery -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
         <!-- Navbar -->
         <script src="asset/js/navbar.js"></script>
-        <!-- Optional: jQuery (if you need it for other purposes) -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://kit.fontawesome.com/73f60c743c.js" crossorigin="anonymous"></script>
 </html>
