@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> Rhonebay </title>
+        <link rel="stylesheet" href="asset/dist/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="asset/css/style.css">
+        <link rel="stylesheet" href="asset/css/content-grid.css">
+        <link rel="stylesheet" href="asset/css/component.css">
+        <link rel="shortcut icon" href="asset/images/favon.png" />
+        
+    </head>
+    <body class="">
+        <nav class="navbar bg-white navbar-expand-lg fixed-top p-lg-2">
+            <div class="container-fluid py-1 px-lg-5">
+                <a class="navbar-brand text-green" href="#home"> <h2>Rhonebay</h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-link mx-lg-3" href="#home">Home</a>
+                        <a class="nav-link mx-lg-3" href="#categories">Categories</a>
+                        <a class="nav-link mx-lg-3" href="#products">Our Products</a>
+                        <a class="nav-link mx-lg-3" href="#about">About</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link text-warning" href="#">  </a>
+                        <a class="nav-link text-darksage" href="#">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="home" class="home mt-5 pb-5">
+            <div class="home-wrap row px-2 px-lg-5">
+                <div class="col my-auto mx-3">
+                    <h3 class="head-text">Order Your </h3>
+                    <h3 class="head-text">Daily Groceries</h3>
+                    <p class="head-link">#Free Delivery</p>
+                    <form class="" role="search">
+                        <div class="search-group d-flex">
+                            <input class="search-form" type="search" placeholder="Search" aria-label="Search">
+                            <button class="button btn-search" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="col my-auto">
+                    <div class="ratio ratio-3x4">
+                        <img class="images" src="asset/images/david-salamanca-unsplash.jpg" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section id="categories" class="categories row px-5 mx-auto">
+          <div class="container my-auto">
+            <h3 class="head-cat-text mx-auto"> Category </h3>
+            <div class="row mx-auto">
+              <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                      <div class="MultiCarousel-inner">
+                          <div class="item">
+                              <div class="pad15">
+                                <i class="text-success fas fa-fish fa-2x"></i>
+                                  <p>Meat & Fish</p>
+                              </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="pad15">
+                              <i class="text-success fas fa-fish fa-2x"></i>
+                                <p>Meat & Fish</p>
+                            </div>
+                          </div>
+                      </div>
+                      <button class="btn btn-primary leftLst"><</button>
+                      <button class="btn btn-primary rightLst">></button>
+                  </div>
+            </div> 
+          </div> 
+        </section>
+      <!-- Product -->
+        <section id="product" class="product container p-sm-2">
+          <div class="row py-lg-5 py-sm-2 px-lg-5 mx-lg-2">
+            <div class="col-6">
+              <h3 class="head-cat-text">Products</h3>
+            </div>
+            <div class="col-6 text-end">
+              <button class="btn btn-success text-light">See all</button>
+            </div>
+          </div>
+          <div class="row mx-auto px-lg-5">
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/courtney.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Perry's Ice Cream.</h5>
+                  <h6 class="card-text text-secondary">1 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $13</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/rose.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Pink Roses.</h5>
+                  <h6 class="card-text text-secondary">1 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $7</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/mockup.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Zuccini.</h5>
+                  <h6 class="card-text text-secondary">1 KG</h6>
+                  <p></p>
+                  <h5 class="card-text"> $6</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/irene.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Bell Pepper.</h5>
+                  <h6 class="card-text text-secondary">1 KG</h6>
+                  <p></p>
+                  <h5 class="card-text"> $9</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/courtney.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Perry's Ice Cream.</h5>
+                  <h6 class="card-text text-secondary">1 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $13</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/rose.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Roses.</h5>
+                  <h6 class="card-text text-secondary">10 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $70</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/mockup.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Zuccini.</h5>
+                  <h6 class="card-text text-secondary">1 KG</h6>
+                  <p></p>
+                  <h5 class="card-text"> $6</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/irene.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Bell Peppers.</h5>
+                  <h6 class="card-text text-secondary">1 KG</h6>
+                  <p></p>
+                  <h5 class="card-text"> $9</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/rose.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Roses.</h5>
+                  <h6 class="card-text text-secondary">5 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $40</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto">
+                <img src="asset/images/courtney.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Perry's Ice Cream.</h5>
+                  <h6 class="card-text text-secondary">2 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $22</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- Popular Product -->
+        <section id="product" class="popular-product container p-3 p-lg-5">
+          <div class="row p-3 py-lg-4">
+            <div class="col-6">
+              <h3 class="head-cat-text">Popular Products</h3>
+            </div>
+            <div class="col-6 text-end">
+              <button class="btn btn-success text-light">See all</button>
+            </div>
+          </div>
+          <div class="row mx-auto">
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto pop-card">
+                <img src="asset/images/courtney.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Perry's Ice Cream.</h5>
+                  <h6 class="card-text text-secondary">1 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $13</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto pop-card">
+                <img src="asset/images/rose.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Pink Roses.</h5>
+                  <h6 class="card-text text-secondary">1 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $7</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto pop-card">
+                <img src="asset/images/mockup.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Zuccini.</h5>
+                  <h6 class="card-text text-secondary">1 KG</h6>
+                  <p></p>
+                  <h5 class="card-text"> $6</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto pop-card">
+                <img src="asset/images/irene.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Bell Pepper.</h5>
+                  <h6 class="card-text text-secondary">1 KG</h6>
+                  <p></p>
+                  <h5 class="card-text"> $9</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto pop-card">
+                <img src="asset/images/courtney.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Perry's Ice Cream.</h5>
+                  <h6 class="card-text text-secondary">1 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $13</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-5">
+              <div class="card mx-auto pop-card">
+                <img src="asset/images/rose.png" class="card-img-top product-img" alt="...">
+                <div class="card-body p-4">
+                  <h5 class="card-text">Roses.</h5>
+                  <h6 class="card-text text-secondary">10 Pcs</h6>
+                  <p></p>
+                  <h5 class="card-text"> $70</h5>
+                  <div class="row">
+                    <div class="col-lg-6 my-2 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-dark">-</button>
+                        <button class="btn-off">2</button>
+                        <button type="button" class="btn btn-outline-dark">+</button> 
+                      </div> 
+                    </div>
+                    <div class="col-lg-6 my-2">
+                      <h6 class="btn btn-sm btn-success ms-auto">Buy</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Clients review -->
+        <section class="rating p-lg-5 p-sm-2 my-5">
+          <h3 class="head-cli-text text-center"> What Our Clients Say</h3>
+          <div class="row">
+          <div id="carouselExampleCaptions" class="carousel carousel-green slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active text-dark" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="text-dark"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="text-dark"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row p-3 justify-content-center mb-lg-5 m-sm-5">
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row p-3 justify-content-center mb-lg-5 m-sm-5">
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row p-3 justify-content-center mb-lg-5 m-sm-5">
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 card m-2 cli-card">
+                    <div class="card-body p-4">
+                      <div class="row my-2">
+                        <div class="col-4 bg-info" style="border-radius: 50px; height: 50px; width: 50px;">
+                          <div class="" ></div>
+                        </div>
+                        <div class="col-8">
+                          <h5 class="card-text">Roses Perrys Celine.</h5>
+                          <h6 class="card-text text-secondary">10 Pcs</h6>
+                        </div>
+                      </div>
+                      <div class="d-flex">
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      <button class="btn btn-warning btn-sm mx-1">*</button>
+                      </div>
+                      <h6 class="card-text text-just"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      <!-- Download App -->
+        <section class="apps p-5 mb-5">
+          <div class="row py-5">
+            <div class="col-6 row">
+              <h2 class="text-center text-success my-auto text-big">Rhonebay</h2>
+            </div>
+            <div class="col-6">
+              <h6 class="text-bold app-header">Download App</h6>
+              <h6 class="text-secondary text-app">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h6>
+              <div class="row">
+                <button class="col-4 mx-2 btn btn-dark">Download Now</button> 
+                <button class="col-6 mx-2 btn btn-dark">Download Via Playstore</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Footer -->
+        <section class="footer row justify-content-center px-5">
+            <div class="col-lg-2 my-auto mx-auto px-2 px-5 py-2"> 
+              <h5 class="text-light">Rhonebay </h5>
+                    <a href="#home" class="text-secondary nav-link text-2x mx-sm-auto">Home</a>
+                    <a href="#collection" class="text-secondary nav-link text-2x mx-sm-auto">Collection</a>
+                    <a href="#about" class="text-secondary nav-link text-2x mx-sm-auto">About</a>
+                    <a href="#contact" class="text-secondary nav-link text-2x mx-sm-auto">Contact Us</a>
+            </div>
+            <div class="col-lg-2 my-auto mx-auto px-2 px-5 py-2"> 
+              <h5 class="text-light">Find Us </h5>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Facebook</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Twitter</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Instagram</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Youtube</a>
+            </div>
+            <div class="col-lg my-auto mx-auto px-2 px-5 py-2"> 
+              <h5 class="text-light">About </h5>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Lorem ipsum dolor</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Sit amet consectetur</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Adipiscing elit</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Exercitationem quo</a>
+            </div>
+            <div class="col-lg my-auto mx-auto px-2 px-5 py-2"> 
+              <h5 class="text-light">Delivery </h5>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Lorem ipsum dolor</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Sit amet consectetur</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Adipiscing elit</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Exercitationem quo</a>
+            </div>
+            <div class="col-lg my-auto mx-auto px-2 px-5 py-2"> 
+              <h5 class="text-light">Conduct </h5>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Lorem ipsum dolor</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Sit amet consectetur</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Adipiscing elit</a>
+                    <a href="#" class="text-secondary nav-link text-2x mx-sm-auto">Exercitationem quo</a>
+            </div>
+        </section>
+        <section class="creit">
+        <!-- <img src="asset/images/ss.jpg" alt=""> -->
+        </section>
+    </body>    
+        <script src="asset/js/popper.js"></script>
+        <script src="asset/js/jquery-3.6.1.min.js"></script>
+        <script src="asset/js/javs.js"></script>
+        <script src="asset/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/73f60c743c.js" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #FFFFFF; */
+} 
+@media (min-width: 768px) {
+    .home{
+    height: 100vh;
+    }
+    .categories{
+    height: 100%;
+    width: 90vw;
+    }
+    .products{
+    height: 100vh;
+    }
+    .about{
+    height: 100vh;
+    }
+    .footer{
+        height: 35vh;
+    }
+    .credit{
+        background-color: #3AAF4F;
+        height: 100vh;
+    }
+}
+/* ========== section==========  */
+.home{ 
+    padding-right: 4rem !important;
+    padding-left: 4rem !important; 
+    padding-top: 3rem; 
+    background-color: #fff;
+}
+.catgories{
+    /* padding-right: 3rem !important;
+    padding-left: 3rem !important;
+    padding-bottom: 8rem;  */
+    background-color: #FFFFFF;
+}
+.products {
+       background-color: #FFFFFF;
+} 
+.popular-product {
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    background-color: #E2F2E5;
+    border-radius: 50px;
+}
+.rating{
+    background-color: #FAFAFA;
+}
+.apps{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #E2F2E5;
+    border-radius: 50px;
+}
+.about{
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+    /* background-color: #F8F9FA; */
+}
+.footer{
+    background-color: #17162E;
+}
+.credit{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ================ text ================ */
+.text-green{
+    color: #3AAF4F;
+}
+.head-text{
+    color: #000200;
+    font-weight:700;
+    font-size: 3.5rem;
+}
+.head-link{
+    color: #3AAF4F;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.head-cat-text {
+    color: #000200;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.card-text{
+    /* color: #3AAF4F; */
+    font-size: 1rem;
+}
+.tex-just{
+    text-align: justify;
+}
+.head-cli-text{
+    color: #000200;
+    font-weight: 600;
+    font-size: 2rem;
+}
+/* ================== img ================== */
+.product-img{
+    height: 30vh;
+    object-fit:contain;
+}
+
+/* ======= ee ======= */
+
+.pop-card{
+    border-radius: 25px;
+    border: #fff;
+  }
+  .cli-card{
+    border-radius: 11px;
+    border: #fff;
+    box-shadow: 0 0.130rem 0.30rem rgba(0, 0, 0, 0.075) !important;
+  }
+.text-big{
+    font-weight: 500;
+    font-size: 4rem;
+}
+.text-bold{
+    font-weight: 700;
+}
+.app-header{
+    font-size: 1.3rem;
+}
+.text-app{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
